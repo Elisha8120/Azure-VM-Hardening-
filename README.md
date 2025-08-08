@@ -13,14 +13,14 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 - ✅ **Linux Virtual Machine (Ubuntu)** deployed
 - ✅ **Network Security Group (NSG)** with inbound and outbound rules:
 
+ ![image alt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/fa058d43db494f4ae4226299db6862b17313e467/Screenshot%202025-08-07%20161835.png)
 
--  ![image alt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/fa058d43db494f4ae4226299db6862b17313e467/Screenshot%202025-08-07%20161835.png)
 
--    
+ ![imagealt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/784295023aa9972bd3a8a3eda6c005538c3bbdbd/Screenshot%202025-08-08%20085153.png)
+
+   
     
- 
-
----
+ ---
 ## Azure Steps 
 1) Create a Resource Group
 
@@ -68,4 +68,4 @@ Accessible only via SSH keys.
 
 Protected by NSG rules and UFW firewall.
 
-Hardened against brute-force SSH attacks.
+Hardened against brute-force and SSH attacks.
