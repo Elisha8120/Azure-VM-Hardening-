@@ -11,10 +11,10 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 - ✅ **Virtual Network (VNet)** created with:
   - Address space: `10.0.0.0/16`
 - ✅ **Linux Virtual Machine (Ubuntu)** deployed
-- ✅ **Network Security Group (NSG)** with inbound rules for:
--   Port 22 (SSH)
--
--    ![image alt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/fa058d43db494f4ae4226299db6862b17313e467/Screenshot%202025-08-07%20161835.png)
+- ✅ **Network Security Group (NSG)** with inbound and outbound rules:
+
+
+-  ![image alt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/fa058d43db494f4ae4226299db6862b17313e467/Screenshot%202025-08-07%20161835.png)
 
 -    
     
