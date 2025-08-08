@@ -38,9 +38,11 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 
 7)  Following least privilage access and getting rid of a brute force attack vulnerability
 
-
-
-7) Create a non-root admin user (least privilege)
+   ![imagalt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/057fcb804f99b4d62359818f8f08c462aa0c6404/Screenshot%202025-08-07%20134003.png)
+  
+   Added keys to ensure I and anyone needed can ssh directly into the system, getting rid of a brute force attack vulnerability. 
+   7) Create a non-root admin user (least privilege)
+   
 
 On the VM:
 
