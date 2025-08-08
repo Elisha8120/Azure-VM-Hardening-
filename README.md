@@ -1,4 +1,4 @@
-# Azure-VM-Hardening-
+# Azure-VM-Hardening Project
 Azure Virtual Machine created within a virtual network, and UFW hardening. 
 
 ## 🧠 Overview
