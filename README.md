@@ -40,7 +40,9 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 
    ![imagalt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/057fcb804f99b4d62359818f8f08c462aa0c6404/Screenshot%202025-08-07%20134003.png)
   
-8) Added User and keys to ensure I and anyone needed can ssh directly into the system, getting rid of a brute force attack vulnerability. 
+8) Added User and keys to ensure I and anyone needed can ssh directly into the system, getting rid of a brute force attack vulnerability.
+
+![imagealt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/e479191759652d6b2bb96c58c6a3fcaea86272cf/Screenshot%202025-08-08%20081240.png)
   
 ![imagealt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/197e0bceaffe709ba6e5cb6c92cc977decc0af6e/Screenshot%202025-08-07%20164246.png)
 
@@ -48,7 +50,7 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 
 ![imagealt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/7ee09ca1c04367fc77b8ac35a4b78ab67cd254b4/Screenshot%202025-08-07%20141655.png)
 
-Test first: keep your current SSH session open and open a new session to verify key-auth works before logging out.
+
 
 Host Hardening with UFW (basic) — commands and notes
 
