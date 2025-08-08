@@ -32,8 +32,9 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 ![imagealt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/88eaa83c79a1c209260074698fa24fffc205cee4/Screenshot%202025-08-07%20161216.png)
 
 
-5) Verify VM & Private IP (confirm VNet connection)
-   ![imagalt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/d39e0ec58360eefb52b54fa571f08a6010082350/Screenshot%202025-08-08%20074213.png)
+5) Verifying VM & Private IP (confirm VNet connection)
+
+    ![imagalt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/d39e0ec58360eefb52b54fa571f08a6010082350/Screenshot%202025-08-08%20074213.png)
 
 7)  Following least privilage access and getting rid of a brute force attack vulnerability
 
