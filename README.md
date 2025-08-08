@@ -40,24 +40,13 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 
    ![imagalt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/057fcb804f99b4d62359818f8f08c462aa0c6404/Screenshot%202025-08-07%20134003.png)
   
-   Added keys to ensure I and anyone needed can ssh directly into the system, getting rid of a brute force attack vulnerability. 
-   7) Create a non-root admin user (least privilege)
-   
-
-On the VM:
-
-sudo adduser analyst
-sudo usermod -aG sudo analyst
+8) Added User and keys to ensure I and anyone needed can ssh directly into the system, getting rid of a brute force attack vulnerability. 
+  
 
 
-8) Harden SSH: disable password auth + lock root login
+9) Harden SSH: disable password auth + lock root login
 
-Edit SSH daemon config:
-sudo nano /etc/ssh/sshd_config
-# Ensure these lines are set:
-PasswordAuthentication no
-PermitRootLogin no
-
+![imagealt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/7ee09ca1c04367fc77b8ac35a4b78ab67cd254b4/Screenshot%202025-08-07%20141655.png)
 
 Test first: keep your current SSH session open and open a new session to verify key-auth works before logging out.
 
