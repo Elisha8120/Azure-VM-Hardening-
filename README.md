@@ -29,6 +29,7 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 
 4) Create the Virtual Machine (VM)
 
+![imagealt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/88eaa83c79a1c209260074698fa24fffc205cee4/Screenshot%202025-08-07%20161216.png)
 
 
 5) Verify VM & Private IP (confirm VNet connection)
@@ -40,7 +41,7 @@ On local machine:
 ssh-keygen -t ed25519  
 
 cat ~/.ssh/id_ed25519.pub
-# copy the line
+
 # on VM:
 nano ~/.ssh/authorized_keys   # paste public key, save
 
