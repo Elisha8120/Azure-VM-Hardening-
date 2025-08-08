@@ -42,7 +42,7 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
   
 8) Added User and keys to ensure I and anyone needed can ssh directly into the system, getting rid of a brute force attack vulnerability. 
   
-
+![imagealt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/197e0bceaffe709ba6e5cb6c92cc977decc0af6e/Screenshot%202025-08-07%20164246.png)
 
 9) Harden SSH: disable password auth + lock root login
 
