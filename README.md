@@ -2,7 +2,7 @@
 Azure Virtual Machine created with a virtual network, and UFW hardening. 
 
 ## 🧠 Overview
-This project demonstrates the Deployment and hardening of a Linux virtual machine (VM) in Microsoft Azure. The VM is hosted inside a Virtual Network (VNet) and configured to allow only secure access using SSH key authentication. Additional security measures include firewall rules (UFW), Network Security Group (NSG) configuration, and the removal of password-based login.
+This project demonstrates the Deployment and hardening of a Linux virtual machine (VM) in Microsoft Azure. The VM is hosted inside a Virtual Network (VNet) and configured to allow only secure access using SSH key authentication. Additional security measures include basic firewall rules (UFW), Network Security Group (NSG) configuration, and the removal of password-based login.
 
 ---
 
@@ -16,6 +16,8 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 -   Port 22 (SSH)
 -
 -    ![image alt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/fa058d43db494f4ae4226299db6862b17313e467/Screenshot%202025-08-07%20161835.png)
+
+-    
     
  
 
