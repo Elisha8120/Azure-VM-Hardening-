@@ -33,17 +33,11 @@ This project demonstrates the Deployment and hardening of a Linux virtual machin
 
 
 5) Verify VM & Private IP (confirm VNet connection)
+   ![imagalt](https://github.com/Elisha8120/Azure-VM-Hardening-/blob/d39e0ec58360eefb52b54fa571f08a6010082350/Screenshot%202025-08-08%20074213.png)
 
-6)  Generate SSH key pair locally and copy public key
+7)  Following least privilage access and getting rid of a brute force attack vulnerability
 
-On local machine:
 
-ssh-keygen -t ed25519  
-
-cat ~/.ssh/id_ed25519.pub
-
-# on VM:
-nano ~/.ssh/authorized_keys   # paste public key, save
 
 7) Create a non-root admin user (least privilege)
 
